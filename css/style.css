@@ -9,3 +9,41 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/********** 
+    Classes padrões para todo o site 
+**********/
+a{
+    text-decoration: none;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: #111;
+    color: #eee;
+    border-radius: 5px;
+    transition: background-color 500ms ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #000;
+}
+
+.headline{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 5px; /* é a separação entre as letras */
+}
+/********
+    fim
+*********/
+
+/* Inicio do site - CABEÇALHO */
+
