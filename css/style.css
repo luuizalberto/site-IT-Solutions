@@ -46,4 +46,32 @@ a{
 *********/
 
 /* Inicio do site - CABEÇALHO */
+#navbar{
+    width: 100%;
+    background-color: #111;
+    color: #eee;
+    height: 80px;
+}
 
+#navbar-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; /* para cada um ir para um lado */
+    align-items: center;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+#navbar-items{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navbar-items li{
+    padding: 10px;
+}
