@@ -104,4 +104,24 @@ a{
 }
 
 /* ---------- CLIENTES */
+#clients{
+    width: 100%;
+    background: #eee;
+    color: #111;
+    padding: 50px;
+}
+
+#clients-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* vai ter 4 colunas ocupando 1 fração da minha div total */
+    justify-items: center;
+    padding: 15px;
+}
+
+.client{
+    display: inline-block;
+    width: 25%;
+}
+
+/* ---------- SOBRE */
 
