@@ -78,7 +78,7 @@ a{
 
 /* ---------- SAIBA MAIS */
 #showcase{
-    height: 100vh; /* VH mede a visão do usuário, ja que é '100vh' então vai ocupar toda visão do usuário na altura */
+    height: 95vh; /* VH mede a visão do usuário, ja que é '100vh' então vai ocupar toda visão do usuário na altura */
     display: flex;
     justify-content: center; /* alinhando na horizontal */
     align-items: center; /* alinhando na vertical */
