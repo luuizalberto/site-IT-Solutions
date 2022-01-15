@@ -153,3 +153,62 @@ a{
 }
 
 /* ---------- PRODUTO */
+#product{
+    width: 100%;
+    padding: 50px;
+}
+
+#product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#items{
+    width: 650px;
+}
+
+#items .item{
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+#items .item i{
+    margin-right: 5px; /* adicionei */
+}
+
+
+/* ---------- TESTEMUNHOS */
+#testimonials{
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+
+.testimonial{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#testimonials-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial .testimonials-image{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
