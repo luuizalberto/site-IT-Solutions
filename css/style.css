@@ -22,7 +22,7 @@ a{
     padding: 15px 60px;
     font-size: 1.1rem;
     text-transform: uppercase;
-    background-color: #111;
+    background-color: rgb(20, 20, 20);
     color: #eee;
     border-radius: 5px;
     transition: background-color 500ms ease;
@@ -30,7 +30,7 @@ a{
 
 .btn:hover{
     cursor: pointer;
-    background-color: #000;
+    background-color: rgb(0, 0, 0);
 }
 
 .headline{
@@ -75,3 +75,33 @@ a{
 #navbar-items li{
     padding: 10px;
 }
+
+/* ---------- SAIBA MAIS */
+#showcase{
+    height: 100vh; /* VH mede a visão do usuário, ja que é '100vh' então vai ocupar toda visão do usuário na altura */
+    display: flex;
+    justify-content: center; /* alinhando na horizontal */
+    align-items: center; /* alinhando na vertical */
+    color: #eee;
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+
+    /* Overlay */
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color; /* serve para mesclar essa cor com a do background da imagem */
+}
+
+#showcase-container{
+    text-align: center;
+}
+
+#showcase-container h2{
+    font-size: 2.5rem;
+}
+
+#showcase-container p{
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+
+/* ---------- CLIENTES */
+
