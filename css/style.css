@@ -216,7 +216,8 @@ a{
 /* ---------- GALERIA */
 #gallery{
     width: 90%;
-    margin: auto;padding: 50px;
+    margin: auto;
+    padding: 50px;
 }
 
 #gallery-container{
@@ -232,6 +233,7 @@ a{
     height: 360px;
     border-radius: 5px;
 }
+
 
 /* ---------- RODAPÉ */
 #footer{
