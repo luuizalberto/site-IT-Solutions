@@ -232,3 +232,11 @@ a{
     height: 360px;
     border-radius: 5px;
 }
+
+/* ---------- RODAPÉ */
+#footer{
+    background: #222;
+    color: #eee;
+    text-align: center;
+    padding: 30px;
+}
