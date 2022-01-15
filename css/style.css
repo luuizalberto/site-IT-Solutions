@@ -56,7 +56,7 @@ a{
 #navbar-container{
     width: 80%;
     height: 100%;
-    margin: auto;
+    margin: auto; /* joga tudo para o centro */
     display: flex;
     justify-content: space-between; /* para cada um ir para um lado */
     align-items: center;
@@ -124,4 +124,32 @@ a{
 }
 
 /* ---------- SOBRE */
+#features{
+    width: 100%;
+    background: #111;
+    color: #eee;
+    padding: 50px;
+}
 
+#features-container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px; /* distanciamento de uma coluna para outra */
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* ---------- PRODUTO */
