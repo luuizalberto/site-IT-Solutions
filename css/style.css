@@ -42,6 +42,10 @@ a{
     padding-bottom: 50px;
     letter-spacing: 5px; /* é a separação entre as letras */
 }
+
+.clear{
+    clear: both;
+}
 /********
     fim
 *********/
@@ -222,7 +226,7 @@ a{
     padding: 50px;
 }
 
-#gallery-container{
+/* #gallery-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
@@ -234,7 +238,28 @@ a{
     width: 540px;
     height: 360px;
     border-radius: 5px;
+} */
+
+
+.img-wraper{
+	width: 33.3%;
+	display: inline-block;
+    margin-right: -4px;
+	background-color: white;
+	position: static;
+	padding: 5px;
 }
+
+img.gallery-image{
+	position: inherit;
+	width: 100%;
+	height: 250px;
+	background-position: center;
+	background-size: cover;/* nao distorcer a imagem, respeitando o tamanho da box*/
+	background-repeat: no-repeat;
+}
+
+
 
 
 /* ---------- RODAPÉ */
