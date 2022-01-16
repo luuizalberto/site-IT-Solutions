@@ -1,5 +1,5 @@
 # site-IT-Solutions
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/luuizalberto/web-design-express/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/luuizalberto/site-IT-Solutions/blob/main/LICENSE)
 
 # Sobre o Projeto
 desenvolvimento de um website utilizando as novas tecnicas do html e css
