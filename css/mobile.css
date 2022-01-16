@@ -62,10 +62,19 @@
 }
 
 /* GALERIA */
-#gallery-container{
-    grid-template-columns: 1fr;
+#gallery{
+    width: 90%;
+    margin: auto;
+    padding: 50px;
 }
 
-.gallery-image{
-    width: 100%;
+.img-wraper{
+	width: 100%;
+	padding: 15px 0;/*para a altura ser igual a largura*/
+	position: static;
+    border: 0;
+}
+
+img{
+	position: inherit;
 }
