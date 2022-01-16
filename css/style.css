@@ -225,7 +225,6 @@ a{
     margin: auto;
     padding: 50px;
 }
-
 /* #gallery-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -239,8 +238,6 @@ a{
     height: 360px;
     border-radius: 5px;
 } */
-
-
 .img-wraper{
 	width: 33.3%;
 	display: inline-block;
@@ -253,14 +250,18 @@ a{
 img.gallery-image{
 	position: inherit;
 	width: 100%;
-	height: 250px;
+	height: 300px;
 	background-position: center;
 	background-size: cover;/* nao distorcer a imagem, respeitando o tamanho da box*/
 	background-repeat: no-repeat;
 }
 
-
-
+@media screen and (max-width: 1280px){
+    img.gallery-image{
+        width: 100%;
+        height: 200px;
+    }
+}
 
 /* ---------- RODAPÉ */
 #footer{
@@ -269,3 +270,4 @@ img.gallery-image{
     text-align: center;
     padding: 30px;
 }
+

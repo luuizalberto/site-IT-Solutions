@@ -75,6 +75,7 @@
     border: 0;
 }
 
-img{
+img.gallery-image{
 	position: inherit;
+    height: 100%;
 }
