@@ -5,6 +5,6 @@
 desenvolvimento de um website utilizando as novas tecnicas do html e css
 
 # Layout Web
-![image](https://github.com/luuizalberto/assets/blob/main/images/web-design-express.png)
+![image](https://github.com/luuizalberto/assets/blob/main/images/IT-Solutions.png)
 
 Confira neste link https://luuizalberto.github.io/web-design-express/
