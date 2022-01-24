@@ -6,6 +6,7 @@
     width: 70%;
     background-color: #222;
     border-radius: 0 0 0 50%;
+    display: none;
 }
 
 #navbar-mobile > #navbar-container{
@@ -39,6 +40,33 @@
 /****
     Fim
         ****/
+
+
+
+
+
+
+        
+        
+        .logo{
+            font-size: 1.8rem;
+        }
+        
+        #navbar-items{
+            display: none;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* SHOWCASE */
