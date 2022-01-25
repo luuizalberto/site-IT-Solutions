@@ -82,6 +82,10 @@ a{
     padding: 10px;
 }
 
+.menu-mobile{
+    display: none   ;
+}
+
 /* ---------- SAIBA MAIS */
 #showcase{
     height: 100vh; /* VH mede a visão do usuário, ja que é '100vh' então vai ocupar toda visão do usuário na altura */

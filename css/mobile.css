@@ -1,63 +1,44 @@
-/* menu mobile */ 
-#navbar-mobile{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 70%;
-    background-color: #222;
-    border-radius: 0 0 0 50%;
+/* icone do menu */
+#navbar-items{
     display: none;
 }
 
-#navbar-mobile > #navbar-container{
-    width: 80%;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    padding: 40px 0;
+.menu-mobile{
+    display: block;
+    cursor: pointer;
 }
 
-#navbar-mobile > #navbar-container > .logo{
-    color: white;
+/* menu mobile */
+#menu-items-mobile{
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: #111;
+    width: 60%;
+    height: 70vh;
+    border-radius: 0 0 0 10%;
 }
 
-#navbar-items-mobile{
+#menu-mobile{
     display: flex;
-    list-style: none;
-    text-transform: uppercase;
     flex-direction: column;
     text-align: right;
-    width: 100%;
-    color: white; 
 }
 
-#navbar-items-mobile li{
-    padding-top: 50px;
+#menu-mobile li{
+    list-style: none;
+    padding: 30px 50px;
+    font-size: 1.6rem;
 }
-/****
-    Fim
-        ****/
 
+#menu-mobile li:nth-child(1){
+    padding-top: 100px;
+}
 
-
-
-
-
-        
-        
-        .logo{
-            font-size: 1.8rem;
-        }
-        
-        #navbar-items{
-            display: none;
-        }
-
-
-
+/* #menu-mobile li a{
+    padding: 100px 30px;
+} */
 
 
 

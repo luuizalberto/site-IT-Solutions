@@ -1,6 +1,6 @@
 // Efeito suave do scroll
 $('#navbar a, .btn').on('click', function (event){
-    if(this.hash /= "") {
+    if(this.hash =/= "") {
         event.preventDefault()
 
         const hash = this.hash
