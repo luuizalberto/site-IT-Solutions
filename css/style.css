@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/********** 
+    Classes padrões para todo o site 
+**********/
+a{
+    text-decoration: none;
+    color: inherit; /* aplica a cor do elemento pai */
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: rgb(20, 20, 20);
+    color: #eee;
+    border-radius: 5px;
+    transition: background-color 500ms ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+}
+
+.headline{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 5px; /* é a separação entre as letras */
+}
+
+.clear{
+    clear: both;
+}
+/********
+    fim
+*********/
+
+/* Inicio do site - CABEÇALHO */
+#navbar{
+    width: 100%;
+    background-color: #111;
+    color: #eee;
+    height: 80px;
+    position: fixed;
+}
+
+#navbar-container{
+    width: 80%;
+    height: 100%;
+    margin: auto; /* joga tudo para o centro */
+    display: flex;
+    justify-content: space-between; /* para cada um ir para um lado */
+    align-items: center;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+#navbar-items{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navbar-items li{
+    padding: 10px;
+}
+
+.menu-mobile{
+    display: none   ;
+}
+
+/* ---------- SAIBA MAIS */
+#showcase{
+    height: 100vh; /* VH mede a visão do usuário, ja que é '100vh' então vai ocupar toda visão do usuário na altura */
+    display: flex;
+    justify-content: center; /* alinhando na horizontal */
+    align-items: center; /* alinhando na vertical */
+    color: #eee;
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+
+    /* Overlay */
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color; /* serve para mesclar essa cor com a do background da imagem */
+}
+
+#showcase-container{
+    text-align: center;
+}
+
+#showcase-container h2{
+    font-size: 2.5rem;
+}
+
+#showcase-container p{
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+
+/* ---------- CLIENTES */
+#clients{
+    width: 100%;
+    background: #eee;
+    color: #111;
+    padding: 50px;
+}
+
+#clients-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* vai ter 4 colunas ocupando 1 fração da minha div total */
+    justify-items: center;
+    padding: 15px;
+}
+
+.client{
+    display: inline-block;
+    width: 25%;
+}
+
+/* ---------- SOBRE */
+#features{
+    width: 100%;
+    background: #111;
+    color: #eee;
+    padding: 50px;
+}
+
+#features-container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px; /* distanciamento de uma coluna para outra */
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* ---------- PRODUTO */
+#product{
+    width: 100%;
+    padding: 50px;
+}
+
+#product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#items{
+    width: 650px;
+}
+
+#items .item{
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+#items .item i{
+    margin-right: 5px; /* adicionei */
+}
+
+
+/* ---------- TESTEMUNHOS */
+#testimonials{
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+
+.testimonial{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#testimonials-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial .testimonials-image{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+/* ---------- GALERIA */
+#gallery{
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+/* #gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.gallery-image{
+    display: inline-block;
+    width: 540px;
+    height: 360px;
+    border-radius: 5px;
+} */
+.img-wraper{
+	width: 33.3%;
+	display: inline-block;
+    margin-right: -4px;
+	background-color: white;
+	position: static;
+	padding: 5px;
+}
+
+img.gallery-image{
+	position: inherit;
+	width: 100%;
+	height: 300px;
+	background-position: center;
+	background-size: cover;/* nao distorcer a imagem, respeitando o tamanho da box*/
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1280px){
+    img.gallery-image{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+/* ---------- RODAPÉ */
+#footer{
+    background: #222;
+    color: #eee;
+    text-align: center;
+    padding: 30px;
+}
+

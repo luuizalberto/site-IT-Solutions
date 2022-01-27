@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <h1 class="logo">IT Solutions</h1>
+            <ul id="navbar-items">
+                <li><a href="#showcase">Início</a></li>
+                <li><a href="#features">Sobre</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+            </ul><!--Desktop-->
+
+            <div class="menu-mobile">
+                <h2><i class="fa fa-bars"></i></h2>
+                <h2><i style="display: none;" class="fa fa-times"></i></h2>
+                <div id="menu-items-mobile">
+                    <ul id="menu-mobile">
+                        <li><a href="#showcase">Início</a></li>
+                        <li><a href="#features">Sobre</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                    </ul><!--Mobile-->
+                </div>
+            </div>
+        </div>
+    </nav><!--navbar-->
+
+    <header id="showcase">
+        <div id="showcase-container"> <!-- escreve '#showcase-conteiner' + tab  que ele a cria uma div automaticamente -->
+            <h2>Lorem ipsum dolor sit amet.</h2> <!-- escreve 'lorem' + 5  que gera um texto com 5 palavras -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed!</p>
+            <a href="" class="btn">Saiba mais</a> <!-- coloquei um link e n um botão pq quero q leve para outro lugar-->
+        </div>
+    </header>
+
+    <!-- 
+        SESSÃO CLIENTES 
+    -->
+    <section id="clients">
+        <div class="headline">Nossos clientes</div>
+        <div id="clients-container">
+            <img src="/img/netflix.png" class="client" alt="">
+            <img src="/img/google.png" class="client" alt="">
+            <img src="/img/apple.png" class="client" alt="">
+            <img src="/img/microsoft.png" class="client" alt="">
+        </div>
+    </section>
+
+    <!-- 
+        SESSÃO SOBRE
+    -->
+    <section id="features">
+        <div class="headline">O que fazemos</div>
+        <div id="features-container">
+            <div class="feature">
+                <i class="fas fa-tachometer-alt fa-3x"></i>
+                <span class="feature-title">Lorem ipsum dolor sit amet.</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem numquam beatae et similique saepe.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-code fa-3x"></i>
+                <span class="feature-title">Lorem ipsum dolor sit amet.</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem numquam beatae et similique saepe.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-layer-group fa-3x"></i>
+                <span class="feature-title">Lorem ipsum dolor sit amet.</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem numquam beatae et similique saepe.</p>
+            </div>
+        </div>
+    </section><!--features-->
+
+    <!-- 
+        SESSÃO PRODUTO
+    -->
+    <section id="product">
+        <div class="headline">Nosso produto</div>
+        <div id="product-container">
+            <img src="/img/iphone-x.png" alt="" class="iphone-x">
+            <div id="items">
+                <div class="item">
+                    <i class="fas fa-map-marked fa-2x color-primary"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sunt vel blanditiis mollitia molestias! Repellat.</p>
+                </div><!--item-->
+                <div class="item">
+                    <i class="fas fa-users fa-2x color-primary"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sunt vel blanditiis mollitia molestias! Repellat.</p>
+                </div><!--item-->
+                <div class="item">
+                    <i class="fas fa-book-open fa-2x color-primary"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sunt vel blanditiis mollitia molestias! Repellat.</p>
+                </div><!--item-->
+                <div class="item">
+                    <i class="fas fa-glass-cheers fa-2x color-primary"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sunt vel blanditiis mollitia molestias! Repellat.</p>
+                </div><!--item-->
+            </div><!--item-->
+        </div>
+    </section>
+
+    <!-- 
+        SESSÃO TESTEMUNHOS
+    -->
+    <section id="testimonials">
+        <div class="headline">O que acham de nós</div>
+        <div id="testimonials-container">
+            <div class="testimonial">
+                <img src="/img/person-1.jpeg" alt="" class="testimonials-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quam distinctio dolorem similique eos error maiores sed voluptas aut voluptate!</p>
+            </div><!--testimonial-->
+            <div class="testimonial">
+                <img src="/img/person-2.jpeg" alt="" class="testimonials-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quam distinctio dolorem similique eos error maiores sed voluptas aut voluptate!</p>
+            </div><!--testimonial-->
+        </div>
+    </section>
+
+    <!-- 
+        SESSÃO GALERIA 
+    -->
+    <section id="gallery">
+        <div class="headline">Galeria</div>
+        <div id="gallery-container">
+            <div class="img-wraper">
+                <img src="/img/image-1.jpeg" alt="" class="gallery-image">
+            </div><!--img-wraper-->
+            <div class="img-wraper">
+                <img src="/img/image-2.jpeg" alt="" class="gallery-image">
+            </div><!--img-wraper-->
+            <div class="img-wraper">
+                <img src="/img/image-3.jpeg" alt="" class="gallery-image">
+            </div><!--img-wraper-->
+            <div class="img-wraper">
+                <img src="/img/image-4.jpeg" alt="" class="gallery-image">
+            </div><!--img-wraper-->
+            <div class="img-wraper">
+                <img src="/img/image-5.jpeg" alt="" class="gallery-image">
+            </div><!--img-wraper-->
+            <div class="img-wraper">
+                <img src="/img/image-6.jpeg" alt="" class="gallery-image">
+            </div><!--img-wraper-->
+            <div class="clear"></div>
+        </div><!--gallery-container-->
+    </section>
+
+    <!-- 
+        SESSÃO RODAPÉ
+    -->
+    <footer id="footer">
+        <p>Coopyright 2022 - Todos os direitos reservados.</p>
+        <p>Feito por IT Solutions</p>
+    </footer>
+
+    <!-- Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- script do scroll e efeito transparente da navbar-->
+    <script src="/js/main.js"></script>
+    <script src="/js/menuMobile.js"></script>
+    
+</body>
+</html>
