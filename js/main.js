@@ -1,23 +1,14 @@
-// Efeito suave do scroll
-$('#navbar a, .btn').on('click', function (event){
-    if(this.hash =/= "") {
-        event.preventDefault()
 
-        const hash = this.hash
 
-        $("html, body").animate(
-            {
-                scrollTop: $(hash).offset().top = 100
-            },
-            300
-        )
-    }
-})
+$(function(){
 
-window.addEventListener('scroll', function(){
-    if(window.scrolly > 150){
-        document.querySelector("#navbar").style.opacity = 0.9
-    }else{
-        document.querySelector('#navbar').style.opacity = 1
-    }
+	$('nav a').click(function(){
+		var href = $(this).attr('href'); // Pegar o atributo href para sobre aonde a gente tem q ir.
+		var offSetTop = $(href).offset().top;
+
+		$('html,body').animate({'scrollTop':offSetTop});// nova animação, faz com que nosso scroll desça sozinho.
+	
+		return false;// se não o link vai automaticamente para outra página.
+	})
+
 })
